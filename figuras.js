@@ -28,6 +28,47 @@ function triangleArea(base, altura){
 }
 
 console.groupEnd();
+//Triángulo isóseles
+console.group("Triángulo isóceles");
+
+function heightIsoscelesTriangle(value1, value2, value3){
+    side1 = parseFloat(value1);
+    side2 = parseFloat(value2);
+    side3 = parseFloat(value3);
+
+    let h, text;
+    if((side1 == side2) && (side1 != side3) || (side2 == side3) && (side2 != side1) || (side1 == side3) && (side1 != side2)) {
+        text = "It is isosceles triangle, its height is: ";
+        if(side1 == side2 && side1 != side3){
+            side1 *= side1;
+            side3 /= 2;
+            side3 *= side3;
+
+            h = parseFloat(Math.sqrt( side1 - side3 ));
+            return text + h
+        }
+        if(side3 == side2 && side3 != side1){
+            side3 *= side3;
+            side1 /= 2;
+            side1 *= side1;
+
+            h = parseFloat(Math.sqrt( side3 - side1 ));
+            return text + h
+        }
+        if(side1 == side3 && side1 != side2){
+            side1 *= side1;
+            side2 /= 2;
+            side2 *= side2;
+
+            h = parseFloat(Math.sqrt( side1 - side2 ));
+            return text + h
+        }
+    }else{
+        return "No es un triángulo isóseles";
+    }
+
+}
+console.groupEnd();
 
 //Código del circulo
 console.group("Círculo");
@@ -127,4 +168,15 @@ function calcularAreaCirculo(){
 
     const area = circleArea(value);
     alert(area);
+}
+
+//Isosceles triangle
+//height
+function calcularAlturaTrianguloIsosceles(){
+    const input1 = parseFloat(document.getElementById('InputSide1IsoscelesTriangle').value);
+    const input2 = parseFloat(document.getElementById('InputSide2IsoscelesTriangle').value);
+    const input3 = parseFloat(document.getElementById('InputSide3IsoscelesTriangle').value);
+
+    const height = heightIsoscelesTriangle(input1,input2,input3);
+    alert(height);
 }
