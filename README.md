@@ -19,3 +19,10 @@
 - Cuarto paso: integrar js con html
  * Reto 2:
  - Crean una opción la cual se pueda ingresar un cupon de descuento y me regrese el descuento que debe tener. ✅
+
+## Taller #3: promedio, mediana y moda
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmula en javascript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar js con html
