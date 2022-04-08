@@ -26,3 +26,5 @@
 - Segundo paso: implementar la fórmula en javascript
 - Tercer paso: crear funciones
 - Cuarto paso: integrar js con html
+ * Reto 3:
+ - Crear una pagína en html y css que muestre el análisis estadístico de un tema libre a elegir✅
