@@ -19,3 +19,8 @@ section{
 header{
     font-size: 8rem;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+}
