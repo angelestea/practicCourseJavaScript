@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(./images/Wallpaper-Code-Html-Computer-Internet-It-Ict-Pc-Hac251920x1080.jpg);
+}
+header{
+    display: flex;
+    height: 40vh;
+}
+
+.title{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 5rem;
+    color: aliceblue;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.1rem rgb(10, 10, 10);
+}
+
+main{
+
+    height: 50rem; 
+}
+
+.status{
+    display: inline-block;
+    margin: 15px 17rem 15px;
+}
+
+.descriptions{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 35px;
+    width: 25%;
+    margin:2px 5rem 0px;
+}
+
+.status-box{
+    height: 15%;
+}
+
+.descriptions-section{
+    height: 50%;
+    text-align: center  ;
+}
+
+.mid-levels-description{
+    font-size: 40px;    
+}
+
+
+.juniors{
+    font-size: 3rem;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+}
+
+.mid-levels{
+    font-size: 3rem;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+}
+
+.seniors{
+    font-size: 3rem;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+}
+
+footer{
+    margin-top: 15px;
+    display: flex;
+}
+
+.text-autor{
+    font-size: 3rem;
+    margin: 0 auto;
+    color:aliceblue;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+}
+
+
+.picture{
+    margin-bottom: auto;
+    margin: 0 auto;
+    width: 25rem;
+}
