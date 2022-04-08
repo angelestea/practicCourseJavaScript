@@ -20,13 +20,6 @@ function calcularMediana(lista){
     }
 
 
-// const lista1 = [
-//     100,
-//     200,
-//     500,
-//     400000000,
-// ];
-
     const mitadLista = parseInt(lista.length / 2);
 
     function esPar(number){

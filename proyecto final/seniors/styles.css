@@ -12,7 +12,7 @@ body{
 }
 header{
     display: flex;
-    height: 20rem;
+    height: 18rem;
 }
 
 .title{
@@ -25,36 +25,20 @@ header{
 }
 
 main{
-    display: flex;
+    display: block;
     height: 11vh;
 }
 
-.juniors{
+.midlevels{
     font-size: 3rem;
     margin: 0 auto;
     text-decoration: none;
     color: aliceblue;
     text-shadow: 0.7rem 0.4rem 0.3rem black;
     -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+    font-size: 10rem;
 }
 
-.mid-levels{
-    font-size: 3rem;
-    margin: 0 auto;
-    text-decoration: none;
-    color: aliceblue;
-    text-shadow: 0.7rem 0.4rem 0.3rem black;
-    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
-}
-
-.seniors{
-    font-size: 3rem;
-    margin: 0 auto;
-    text-decoration: none;
-    color: aliceblue;
-    text-shadow: 0.7rem 0.4rem 0.3rem black;
-    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
-}
 
 footer{
     display: flex;
@@ -68,9 +52,3 @@ footer{
     -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
 }
 
-
-.picture{
-    margin-bottom: auto;
-    margin: 0 auto;
-    width: 25rem;
-}

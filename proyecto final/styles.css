@@ -11,8 +11,16 @@ body{
     background:url(./images/Wallpaper-Code-Html-Computer-Internet-It-Ict-Pc-Hac251920x1080.jpg);
 }
 header{
-    display: flex;
-    height: 40vh;
+    display: block;
+    height: 30vh;
+}
+
+h2{
+    margin-top: 1.5rem;
+    color:white;
+    font-size: 3rem;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
 }
 
 .title{
@@ -49,7 +57,9 @@ main{
 
 .descriptions-section{
     height: 50%;
-    text-align: center  ;
+    text-align: center;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;    
+    -webkit-text-stroke: 0.08rem rgb(10, 10, 10);
 }
 
 .mid-levels-description{
@@ -64,6 +74,9 @@ main{
     text-shadow: 0.7rem 0.4rem 0.3rem black;
     -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
 }
+.juniors:hover{
+    color: aqua;
+}
 
 .mid-levels{
     font-size: 3rem;
@@ -71,6 +84,10 @@ main{
     color: aliceblue;
     text-shadow: 0.7rem 0.4rem 0.3rem black;
     -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+}
+
+.mid-levels:hover{
+    color: aqua;
 }
 
 .seniors{
@@ -81,9 +98,15 @@ main{
     -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
 }
 
+.seniors:hover{
+    color: aqua;
+}
+
 footer{
+    padding: 2%;
     margin-top: 15px;
     display: flex;
+    justify-content: center;
 }
 
 .text-autor{
@@ -96,7 +119,24 @@ footer{
 
 
 .picture{
-    margin-bottom: auto;
+    margin-top: -50rem;
     margin: 0 auto;
     width: 25rem;
+}
+
+.invest-class{
+    color:aliceblue;    
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.links{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0.7rem 0.4rem 0.3rem black;
+    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
+}
+
+.links:hover{
+    color: aqua;
 }

@@ -15,28 +15,10 @@ main{
     display: block;
 }
 
-.python{
+.improve-box{
     font-size: 2.5rem;
     text-align: center;
     color: aliceblue;
     text-shadow: 0.7rem 0.4rem 0.3rem black;
     -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
-}
-.javascript{
-    font-size: 2.5rem;
-    text-align: center;
-    color: aliceblue;
-    text-shadow: 0.7rem 0.4rem 0.3rem black;
-    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
-}
-.sql{
-    font-size: 2.5rem;
-    text-align: center;
-    color: aliceblue;
-    text-shadow: 0.7rem 0.4rem 0.3rem black;
-    -webkit-text-stroke: 0.05rem rgb(10, 10, 10);
-}
-
-.description{
-    padding-bottom: 1%;
 }
