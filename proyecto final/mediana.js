@@ -1,10 +1,13 @@
 function calcularMediana(lista){
 
+    
+    //Manera de ordenar la lista
     lista = lista.sort(comprobation);
 
     function comprobation(a, b){
         return a - b;
     }
+    //
 
     function calcularMediaAritmetica(lista){
 
